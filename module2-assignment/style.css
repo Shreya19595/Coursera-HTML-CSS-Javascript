@@ -82,6 +82,7 @@ h1 {
     width: 50%;
   }
   .col-md-12 {
+    margin-left: -10px;
     width: 100%;
   }
   .name3{
