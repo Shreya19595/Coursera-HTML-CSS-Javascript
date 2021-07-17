@@ -2,11 +2,13 @@
 
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
-for (name in names) {
-  if (name.charAt(0) == "j") {
-    byeSpeaker.speak(name);
+for (var i = 0; i < names.length; i++) {
+  var first = names[i].charAt(0).toLowerCase();
+  
+  if (first === "j") {
+    byeSpeaker.speak(names[i]);
   } else {
-    helloSpeaker.speak(name);
+    helloSpeaker.speak(names[i]);
   }
 }
 })();
