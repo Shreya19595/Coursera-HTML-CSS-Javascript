@@ -8,4 +8,4 @@ for (name in names) {
   } else {
     helloSpeaker.speak(name);
   }
-}();
+})();
